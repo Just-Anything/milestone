@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Milestone</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="assets/a_of_heart.png">
+  <!-- Alert styles -->
+  <style>
+    .alert {
+      position: relative;
+      padding: 0.75rem 1.25rem;
+      margin-bottom: 1rem;
+      border: 1px solid transparent;
+      border-radius: 0.25rem;
+    }
+    .alert-danger {
+      color: #721c24;
+      background-color: #f8d7da;
+      border-color: #f5c6cb;
+    }
+    .alert-success {
+      color: #155724;
+      background-color: #d4edda;
+      border-color: #c3e6cb;
+    }
+  </style>
+</head>
+<body>
+  <!-- Login Page -->
+  <div id="login-page" class="page active">
+    <div class="animated-background">
+      <div class="particles"></div>
+    </div>
+    <div class="login-container animate__animated animate__fadeIn">
+      <div class="login-card">
+        <h1 class="login-title">Forever & Always</h1>
+        <p class="login-subtitle">Celebrating Her Milestone</p>
+        <div class="login-form">
+          <div class="mb-3">
+            <div class="input-group">
+              <span class="input-group-text"><i class="bi bi-person"></i></span>
+              <input type="text" id="username" class="form-control" placeholder="Username">
+            </div>
+          </div>
+          
+          <div class="mb-4">
+            <div class="input-group">
+              <span class="input-group-text"><i class="bi bi-lock"></i></span>
+              <input type="password" id="password" class="form-control" placeholder="Password">
+            </div>
+          </div>
+          
+          <button id="login-button" class="btn btn-primary w-100">
+            Go to her Journey
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <script src="login.js"></script>
+</body>
+</html>
